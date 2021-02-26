@@ -7,7 +7,7 @@ The Grazioso Salvare dashboard is an interactive dashboard created for Graziozo 
 Motivation
 Having an interactive dashboard improves the efficiency of the company and allows them to quickly locate rescued dogs that are ideal for training for specific tasks, such as water rescue, mountain or wilderness rescue, and disaster rescue or individual tracking.
 	
-	Technology
+Technology
 The motivation behind choice of technologies varies. MongoDB was chosen as the database over a traditional relational database because of its document style architecture and ease of scaling. The document style architecture is perfect for storing all of the animals and their attributes. Dash was chosen as the web framework because of its simplicity and ease of use for the end user. The simple MVC framework allows for a wide array of data visualization and filtering tools to make accessing and interfacing with the Mongo database quicker and easier.
 
 To explore these technologies further:
@@ -28,3 +28,15 @@ The biggest challenge to this process was learning how to use the callback funct
 Contact
 Your name: Jonathan Handy
 Email: Jonathan.handy@snhu.edu
+
+	How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+I write maintainable, readable, adaptable programs by applying object oriented programming concepts and by thoroughly commenting my code. In the case of the CRUD module, writing this way ensures I can easily adapt this program to work in any number of other contexts. I think I would also add a databaseSelection() method to the module to make it even more flexible.
+
+	How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+Approaching problems as a computer scientist requires breaking the problem down into smaller parts and tackling each part individually while keeping the larger picture in mind. I find it essential to test the incorporation of the smaller pieces together as soon as it's possible to help ensure I find and fix problems as soon as possible. My approach did not differ from previous assignments in other courses. I looked at each requirement and broke them down into "independent" or "dependent", meaning requirements that depend on me completing a different requirement first or not. I then start writing code for the independent requirements first.
+
+	What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+	
+Computer scientists solve problems by finding efficient, technological solutions. These solutions contribute to productivity as well as quality of life: things take less time to do leaving more time for further work and relaxation. This type of product increases the productivity of a company like Grazioso Salvare by significantly cutting down on the amount of time required to find the desired information.
